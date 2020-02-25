@@ -1,2 +1,6 @@
-<h1>Pets#show</h1>
-<p>Find me in app/views/pets/show.html.erb</p>
+  <h3><%= @pet.name %></h3>
+  <p><%= @pet.address %></p>
+  <p><%= @pet.species %></p>
+  <p>Found <%= @pet.found_days_ago %> days ago</p>
+  <%= link_to "See All", root_path %>
+  <%= link_to "Edit", edit_pet_path(@pet) %>

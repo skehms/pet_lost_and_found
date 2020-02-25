@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :pets
+  root "pets#index"
+  resources :pets, except: [:index]
   # get '/pets', to:"pets#index", as: "pets"
   # get '/pets/:id', to: "pets#show", as: "pet"
 

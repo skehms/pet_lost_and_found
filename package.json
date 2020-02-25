@@ -1,5 +1,7 @@
 {
   "name": "pet_lost_and_found",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }
